@@ -37,7 +37,6 @@ class roop:
          
         models = model_names()
         swap_model = models.get(swap_model)
-        print(swap_model)
         
         script = FaceSwapScript()
         pil_images = batch_tensor_to_pil(image)
